@@ -1,2 +1,2 @@
-# tunnit-d
+# tunnitood
 failid kooli arvutist
