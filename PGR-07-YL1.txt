@@ -1,0 +1,19 @@
+1.VBSScript
+2.Viirus scannib kõvakettaid ja otsib erinevate faililaienditega faile. Sealt edasi muudab faili andmeid ja lisab  	faililaiendi lõppu .vbs
+3. Viirus lisab registry editori uue sisendi kus mistahes kontoga sisse logimisel viirus käivitub
+	"HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Run\MSKernel32",dirsystem&"\MSKernel32.vbs"
+	Viirus muudab ümber ka Internet Exploreri esilehe, kus browseri käivitamisel viib kindlale lehele ja püüab 	alla laadida uue viiruse.
+	"HKCU\Software\Microsoft\Internet Explorer\Main\Start Page","http://www.skyinet.net/	~young1s/HJKhjnwerhjkxcvytwertnMTFwetrdsfmhPnjw6587345gvsdf7679njbvYT/WIN-BUGSFIX.exe"
+4. Nagu eelnevas vastuses mainitud, püüab alla laadida ka uue viiruse esmasel browseri avamisel. Lisaks kirjutab 	viirus kindlate laienditega failid üle ning eelnevad andmed kustutatakse.
+5. Leiab üles eri laienditega failid, kirjutab seal olevad andmed üle ja paneb faililaiendiks .vbs
+	audio failide puhul muudab faili atribuudi peidetuks ja loob identse faili kus on lõpuks 	faililaiendiks .vbs
+	123.mp3 -> 123.mp3.vbs
+6. Kõik faililaiendid mida antud viirus puudutab, ei ole pärast võimalik kasutada enda endisel eesmärgil.
+	.vbs .vbe .js .jse .css .wsh .sct .hta .jpg .jpeg .mp3 .mp2
+7. Viirus tekitab shell-i scripti, mis avab outlook-i. script leiab kõik mapi namespace-is olevad aadressid, for 	loop-iga leiab kõik aadressid, 
+	emaili subject-iks lisab emaili subject-i ja body, manusesse lisab viiruse.
+8. Et kontrollida kellele on juba viiruse email juba edasi saadetud
+9. Jah, sest arvuti uuesti käivitumisel, käivitakse uuesti ka script, mis kontrollib aadresse ja kas neil on juba 	"flag" olemas.Kui regv=1 "flag" on olemas, siis ei saadeta uut emaili. Kui regv="", siis email saadetakse 	uuele isikule
+10. Selleks, et ei oleks aru saada, et tegemist on viirusega, ongi html sogastatud.
+11. Selleks, et sogastatud html-ist aru saada, on dt1-dt6 määratud line-id mis muudavad ära sogastatud html-i korrektseks.
+12. 
